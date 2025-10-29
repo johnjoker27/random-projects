@@ -1,23 +1,16 @@
 {
-  "name": "Amin's Adblocker",
-  "version": "1.0",
-  "description": "Simple ad blocker made by Amin",
-  "manifest_version": 3,
-  "permissions": [
-    "webRequest",
-    "webRequestBlocking",
-    "declarativeNetRequest",
-    "declarativeNetRequestWithHostAccess"
-  ],
-  "host_permissions": [
-    "*://*.zedo.com/*"
-  ],
-  "background": {
-    "service_worker": "adblock_1.js"
-  },
-  "icons": {
-    "16": "icons/logo_16x16.png",
-    "48": "icons/logo_48x48.png",
-    "128": "icons/logo_128x128.png"
-  }
+    "name":"Simple Ad Block",
+    "version":"1.0.0",
+    "permissions":[
+        "declarativeNetRequest"
+    ],
+    "declarative_net_request":{
+        "rule_resources":[
+            {
+                "id":"ruleset_1",
+                "enabled":true,
+                "path":"background.json"
+            }
+        ]
+    }
 }
