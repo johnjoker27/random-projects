@@ -1,0 +1,101 @@
+/* Reset & base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f9fafc;
+  color: #222;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  color: #2d5cff;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+nav a:hover {
+  color: #2d5cff;
+}
+
+.btn {
+  padding: 8px 16px;
+  background: #2d5cff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.hero .btn {
+  padding: 12px 22px;
+}
+
+/* Features section */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 50px 8%;
+}
+
+.feature {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  text-align: center;
+}
+
+.feature h4 {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.feature p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.85rem;
+  color: #888;
+}

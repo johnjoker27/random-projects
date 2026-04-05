@@ -1,0 +1,99 @@
+/* Base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f9fafc;
+  color: #222;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+header h1 {
+  color: #2d5cff;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #444;
+}
+
+nav a.btn {
+  background: #2d5cff;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 4px;
+}
+
+nav a.btn:hover {
+  background: #1f43c9;
+}
+
+/* Dashboard hero */
+.dashboard-hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.dashboard-hero h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.dashboard-hero p {
+  color: #666;
+}
+
+/* Upload section */
+.upload-section {
+  text-align: center;
+  margin: 30px 0;
+}
+
+#fileInput {
+  padding: 10px;
+}
+
+/* File list section */
+.file-list-section {
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+}
+
+.file-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+
+.file-item button {
+  padding: 5px 10px;
+  font-size: 0.85rem;
+  background: #2d5cff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.file-item button:hover {
+  background: #1f43c9;
+}

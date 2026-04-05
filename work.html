@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="work.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- LOGIN FORM -->
+  <div id="loginForm">
+    <h2>Login</h2>
+    <input type="text" id="loginUsername" placeholder="Username">
+    <input type="password" id="loginPassword" placeholder="Password">
+    
+    <label>
+      <input type="checkbox" id="rememberMe"> Remember me
+    </label>
+
+    <button onclick="login()">Login</button>
+    <p class="error" id="loginError"></p>
+
+    <div class="toggle" onclick="toggleForms()">
+      Don't have an account? Sign up
+    </div>
+  </div>
+
+  <!-- SIGNUP FORM -->
+  <div id="signupForm" class="hidden">
+    <h2>Sign Up</h2>
+    <input type="text" id="signupUsername" placeholder="Username">
+    <input type="password" id="signupPassword" placeholder="Password">
+    <input type="password" id="confirmPassword" placeholder="Confirm Password">
+
+    <button onclick="signup()">Sign Up</button>
+    <p class="error" id="signupError"></p>
+
+    <div class="toggle" onclick="toggleForms()">
+      Already have an account? Login
+    </div>
+  </div>
+
+</div>
+
+<script src="work.js"></script>
+</body>
+</html>
