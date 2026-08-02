@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1785370141 source:c:\users\aminu\downloads\sms\main.cpp
+	<iostream>
+	<vector>
+	"StudentManager.h"
+
+1785370140 c:\users\aminu\downloads\sms\include\studentmanager.h
+	<vector>
+	"Student.h"
+
+1785370140 c:\users\aminu\downloads\sms\include\student.h
+	<string>
+	"Score.h"
+
+1785370140 c:\users\aminu\downloads\sms\include\score.h
+
+1785370140 source:c:\users\aminu\downloads\sms\src\gradecalculator.cpp
+	"GradeCalculator.h"
+
+1785370140 c:\users\aminu\downloads\sms\include\gradecalculator.h
+
+1785370140 source:c:\users\aminu\downloads\sms\src\student.cpp
+	"Student.h"
+
+1785370140 source:c:\users\aminu\downloads\sms\src\studentmanager.cpp
+	<iostream>
+	"StudentManager.h"
+	"GradeCalculator.h"
+
